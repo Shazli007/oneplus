@@ -1,0 +1,29 @@
+:root{--white:#fff;--black:#000;--mainColor:#12345678;--red:red}
+@media only screen and (min-width:768px)and (max-width:1439.98px){#home-stuff-know{padding:64px 20px 16px 20px !important}
+#home-stuff-know .home-stuff-know--wrapper{text-align:center}
+#home-stuff-know .home-stuff-know--wrapper_title{font-size:32px !important;line-height:42px !important;margin-bottom:48px !important}
+#home-stuff-know .home-stuff-know--wrapper_content{margin-bottom:48px !important}
+#home-stuff-know .home-stuff-know--wrapper_content-text .title{font-size:32px !important;line-height:42px !important}
+#home-stuff-know .home-stuff-know--wrapper_content-text .dec{font-size:16px !important;line-height:22px !important}
+}
+@media only screen and (max-width:1439.98px){#home-stuff-know{width:100%;padding:40px 20px 0 20px;box-sizing:border-box}
+#home-stuff-know .home-stuff-know--wrapper{text-align:center}
+#home-stuff-know .home-stuff-know--wrapper_title{font-size:22px;line-height:32px;margin-bottom:40px}
+#home-stuff-know .home-stuff-know--wrapper_content{width:100%;margin-bottom:48px}
+#home-stuff-know .home-stuff-know--wrapper_content .img{display:block;width:100%;height:auto;margin-bottom:20px}
+#home-stuff-know .home-stuff-know--wrapper_content-text{text-align:left}
+#home-stuff-know .home-stuff-know--wrapper_content-text .title{font-size:16px;line-height:22px;margin-bottom:8px}
+#home-stuff-know .home-stuff-know--wrapper_content-text .dec{font-size:14px;line-height:18px;margin-bottom:20px;opacity:.78}
+#home-stuff-know .home-stuff-know--wrapper_content-text .link{display:block;font-size:16px;line-height:22px;margin-top:20px;color:#09c;cursor:pointer}
+}
+@media only screen and (min-width:1440px){#home-stuff-know{width:100%;padding-top:80px;box-sizing:border-box}
+#home-stuff-know .home-stuff-know--wrapper{width:1170px;margin:0 auto;text-align:center}
+#home-stuff-know .home-stuff-know--wrapper_title{font-size:36px;line-height:36px;margin-bottom:80px}
+#home-stuff-know .home-stuff-know--wrapper_content{display:-ms-flexbox;display:flex;margin-bottom:80px}
+#home-stuff-know .home-stuff-know--wrapper_content .img{display:block;width:586px;height:300px;margin-right:70px}
+#home-stuff-know .home-stuff-know--wrapper_content-text{-ms-flex:1;flex:1;text-align:left}
+#home-stuff-know .home-stuff-know--wrapper_content-text .title{font-size:36px;line-height:36px;margin-bottom:40px}
+#home-stuff-know .home-stuff-know--wrapper_content-text .dec{font-size:16px;line-height:22px;margin-bottom:55px;opacity:.78}
+#home-stuff-know .home-stuff-know--wrapper_content-text .dec_one{margin-bottom:100px}
+#home-stuff-know .home-stuff-know--wrapper_content-text .link{display:block;font-size:16px;line-height:22px;margin-top:20px;color:#09c;cursor:pointer}
+}

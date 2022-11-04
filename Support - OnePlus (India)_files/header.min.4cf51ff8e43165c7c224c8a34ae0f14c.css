@@ -1,0 +1,38 @@
+:root{--white:#fff;--black:#000;--mainColor:#12345678;--red:red}
+@media only screen and (min-width:1440px){.oneplus-header{height:60px}
+.oneplus-header #logo svg{width:124px}
+.oneplus-header--container{box-shadow:0 1px 0 rgba(0,0,0,.2)}
+.oneplus-header--nav,.oneplus-header--nav__item,.oneplus-header--nav__list{height:inherit}
+.oneplus-header--nav__item{padding:0 10px}
+.oneplus-header--nav__item_anchor{height:inherit}
+.oneplus-header--nav__item_anchor~.oneplus-header--products{display:none}
+.oneplus-header--nav__item_anchor~.oneplus-header--products:hover{display:block}
+.oneplus-header--nav__item_anchor:hover{position:relative}
+.oneplus-header--nav__item_anchor:hover:after{content:"";position:absolute;background:currentColor;right:0;bottom:0;left:0;height:1px;height:3px;color:#f50514}
+.oneplus-header--nav__item_anchor:hover .oneplus-header--nav__item_label{opacity:1}
+.oneplus-header--nav__item_anchor:hover~.oneplus-header--products{display:block}
+.oneplus-header--products{top:60px;box-shadow:0 4px 12px rgba(0,0,0,.12),0 -1px 0 rgba(0,0,0,.12)}
+.oneplus-header--products__item{width:190px;height:248px}
+.oneplus-header--products_wrapper{max-width:1300px}
+.oneplus-header--personal:hover .oneplus-header--personal__menuList{display:block}
+.oneplus-header--personal__loginIcon{padding:20px}
+.oneplus-header--personal__menuList{width:360px;top:60px;box-shadow:0 4px 12px rgba(0,0,0,.12),0 -1px 0 rgba(0,0,0,.12)}
+.oneplus-header--personal__userInfo_logOut{color:#009cdc}
+}
+@media only screen and (max-width:1439.98px){.oneplus-header{height:50px;box-shadow:0 1px 0 rgba(0,0,0,.2)}
+.oneplus-header #logo svg{width:84.12px;height:20px}
+.oneplus-header--logo{height:inherit}
+.oneplus-header--nav__item{position:relative}
+.oneplus-header--nav__item:after{content:"";position:absolute;background:currentColor;right:0;bottom:0;left:0;height:1px;right:20px;left:20px;transform:scaleY(.3333333333);background-color:#c4c4c4}
+.oneplus-header--nav__item_anchor{height:50px}
+.oneplus-header--nav__item_arrowRight,.oneplus-header--nav__item_minus,.oneplus-header--nav__item_plus{background-position:100%}
+.oneplus-header--nav__item_minus{background-image:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTUgMTEuMjVoMTR2MS41SDV2LTEuNXoiIGZpbGw9IiMwMDAiLz48L3N2Zz4=)}
+.oneplus-header--nav__item_plus{background-image:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMC42MjUgOS4zNzVWNC4xNjdoLTEuMjV2NS4yMDhINC4xNjd2MS4yNWg1LjIwOHY1LjIwOGgxLjI1di01LjIwOGg1LjIwOHYtMS4yNWgtNS4yMDh6IiBmaWxsPSIjMDAwIi8+PC9zdmc+)}
+.oneplus-header--nav__item_arrowRight{background-image:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Im0xMC41MiA4LjU0LTQuNjY2IDQuNjY3LS43MDgtLjcwN0w5LjQ2IDguMTg3IDUuMTQ2IDMuODc0bC43MDgtLjcwNyA0LjY2NiA0LjY2NmEuNS41IDAgMCAxIDAgLjcwN3oiIGZpbGw9IiMwMDAiLz48L3N2Zz4=)}
+.oneplus-header__item .badge{padding:0 3px}
+.oneplus-header--products__item img{width:120px;height:132.8px}
+.oneplus-header--personal{height:50px}
+.oneplus-header--personal__loginIcon{height:inherit}
+}
+.oneplus-header--container .van-sticky{z-index:200;background-color:#fff}
+.oneplus-header .badge{height:14px;padding:0 3px}
